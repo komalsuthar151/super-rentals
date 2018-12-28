@@ -3,7 +3,7 @@ import { inject as service } from '@ember/service';
 
 export default Component.extend({
 
-    classNames: ['map-container'],
+  classNames: ['map-container'],
   mapElement: service(),
 
   didInsertElement() {
